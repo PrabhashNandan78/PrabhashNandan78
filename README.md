@@ -20,7 +20,7 @@ A digital twin of a farm — simulation engine + ML models — built to test agr
 
 ## Master's Research Direction — Open-Source Foundations I'm Building On
 
-For my master's SOP, my research direction sits on three threads from my own work so far — quantum machine learning, real-time computer vision, and digital twins. I have forked the leading open-source project in each area as the foundation I am studying and extending. These are **forks of upstream projects (not my own code)**; each entry states the extension I am building on top of it.
+My research direction sits on three threads from my own work so far — quantum machine learning, real-time computer vision, and digital twins. I have forked the leading open-source project in each area as the foundation I am studying and extending. These are **forks of upstream projects (not my own code)**; each entry states the extension I am building on top of it.
 
 | Foundation (my fork) | Upstream | My thread and planned extension |
 |---|---|---|
