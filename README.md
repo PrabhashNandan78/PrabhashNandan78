@@ -4,7 +4,7 @@
 
 I build things at the intersection of **AI/ML, agentic AI, and automation** — and I do research on how ML systems behave in the real world. Currently an **Organiser at Aaruush** (SRM's national-level techno-management fest) and a **Research Assistant** behind an IEEE paper on digital-twin systems for smart agriculture.
 
-🔭 **Currently:** seeking a **summer internship in ML/AI** · exploring ML systems and **quantum computing**
+🔭 **Currently:** preparing **MSc in Computer Science / AI applications for 2027 entry** (research focus: machine intelligence and quantum machine learning) · seeking a **summer internship in ML/AI**
 📍 Chengalpattu, Tamil Nadu, India
 🔗 [LinkedIn](https://www.linkedin.com/in/prabhash-nandan-35855827b/)
 
@@ -17,6 +17,16 @@ A digital twin of a farm — simulation engine + ML models — built to test agr
 
 - 📈 [DIGITALTWIN_ML](https://github.com/PrabhashNandan78/DIGITALTWIN_ML) — yield modelling notebooks: groundnut yield vs. weather data (2000–2024), digital-twin feedback loop, model comparison
 - 🌱 [TWIN](https://github.com/PrabhashNandan78/TWIN) — the simulation engine: FarmTwin / PlantTwin / SensorTwin / DecisionSupport packages
+
+## Master's Research Direction — Open-Source Foundations I'm Building On
+
+For my master's SOP, my research direction sits on three threads from my own work so far — quantum machine learning, real-time computer vision, and digital twins. I have forked the leading open-source project in each area as the foundation I am studying and extending. These are **forks of upstream projects (not my own code)**; each entry states the extension I am building on top of it.
+
+| Foundation (my fork) | Upstream | My thread and planned extension |
+|---|---|---|
+| [pennylane](https://github.com/PrabhashNandan78/pennylane) | [PennyLaneAI/pennylane](https://github.com/PennyLaneAI/pennylane) | **Hybrid quantum–classical ML.** Grows out of my quantum deep learning framework work (Qiskit 1.4.2 + Qiskit Aer). Extension: benchmark variational quantum classifiers against classical baselines on the same datasets, with honest reporting of where the quantum model does and does not help. |
+| [ultralytics](https://github.com/PrabhashNandan78/ultralytics) | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | **Assistive computer vision.** Grows out of my vision-to-speech assistant for visually impaired users (YOLOv8 + OpenCV, real-time detection with audio feedback, Android phone camera as input). Extension: measure latency/accuracy trade-offs of current YOLO models for real-time assistive feedback on commodity hardware. |
+| [ditto](https://github.com/PrabhashNandan78/ditto) | [eclipse-ditto/ditto](https://github.com/eclipse-ditto/ditto) | **Digital twins for agriculture.** Grows out of my IEEE DigitalTwin-Agri paper and the KISHAN SAHCHAR follow-up. Extension: map my FarmTwin / SensorTwin model onto Eclipse Ditto's production-grade twin runtime, so the research prototype can be tested against a real twin framework instead of only a custom skeleton. |
 
 ## Featured Projects
 
@@ -31,6 +41,8 @@ A digital twin of a farm — simulation engine + ML models — built to test agr
 
 **Languages:** Python · C · C++ · TypeScript · JavaScript
 **AI/ML:** scikit-learn · pandas · Jupyter · Generative AI (Oracle OCI GenAI certified) · LLM agents & function calling
+**Quantum:** Qiskit 1.4.2 · Qiskit Aer · PennyLane (variational circuits, hybrid quantum–classical models)
+**Vision:** YOLOv8 · OpenCV (real-time object detection)
 **Engineering:** FastAPI · React · Chrome Extensions (Manifest V3) · Git/GitHub · SQLite · Vite · Vitest · pytest
 
 ## Certifications
